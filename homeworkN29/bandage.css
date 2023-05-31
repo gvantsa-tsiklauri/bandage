@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-Medium.ttf);
+}
+
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: rgba(37, 43, 66, 1);
+}
+.box {
+    padding-left: 240px;
+    display: flex;
+}
+.box1 {
+    margin-left: 45px;
+}
+@media only screen and (max-width: 768px) {
+
+    .box {
+        padding-left: 0px!important;
+    }
+    .box1 {
+        margin-left: 0px!important;
+    }
+    .text {
+        margin-top: 100px;
+    }
+    .bro {
+        justify-content: center !important;
+    }
+    .bro2 {
+        justify-content: center;
+    }
+    .footerdone {
+        margin-top: 800px !important;
+    }
+}
+.span1 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: rgba(37, 43, 66, 1);
+    text-transform: uppercase;
+}
+.title-span {
+    font-family: 'Montserrat';
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin-top: 35px;
+    display: inline-block;
+}
+.sub-title {
+    margin-top: 35px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.phone, .fax {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+.phone {
+    margin-top: 35px;
+}
+.fax {
+    margin-top: 20px;
+}
+.social-media {
+    margin-top: 45px;
+}
+.span2 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: rgba(37, 43, 66, 1);
+    text-align: center;
+}
+.sub-text {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: rgba(37, 43, 66, 1);
+    display: inline-block;
+    text-align: center;
+}
+.email1{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+}
+.support {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+
+}
+.request {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+.email3 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: black;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+}
+.support2 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+}
+.box3 {
+    display: flex; 
+    justify-content: center; 
+    width: 100%;
+}
+.talk {
+    font-family: 'Montserrat';
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+.bro {
+    justify-content: end;
+}
+
+.footer-h1 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: rgba(37, 43, 66, 1);
+}
+.footer-h2 {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: rgba(115, 115, 115, 1);
+    margin-top: 10px;
+}
+.div6 {
+    margin-top: 10px;
+}
+.footerdone {
+    background-color: rgba(250, 250, 250, 1); 
+    height: 74px; 
+    margin-top: 300px;
+}
+.span-form {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    color: rgba(115, 115, 115, 1);
+}
